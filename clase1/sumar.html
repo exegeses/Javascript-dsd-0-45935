@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sumar números</title>
+</head>
+<body>
+
+    <h1>Sumar número ingresados por el usuario</h1>
+
+    <span id="txt"></span>
+
+    <script>
+        var numero = prompt('Ingrese un número');
+        var numero2 = prompt('Ingrese otro número');
+        var suma = parseInt( numero ) + parseInt( numero2 );
+        //document.write( suma );
+        document.getElementById('txt').innerText = suma;
+    </script>
+
+</body>
+</html>
