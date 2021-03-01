@@ -12,3 +12,6 @@
 3. Requisitos de software
 4. Ejecutar Javascript   
 
+## 1. Definición
+
+> Javascript es un lenguaje de programación desarrollado inicialmente para la web. Para FRONTEND. Para gestionar la interactividad en una web.
