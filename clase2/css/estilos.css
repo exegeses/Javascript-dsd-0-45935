@@ -21,3 +21,8 @@ button{
     background-color: #b0afaf;
     margin-top: 25px;
 }
+#caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+}
