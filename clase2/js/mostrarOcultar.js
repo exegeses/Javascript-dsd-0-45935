@@ -10,5 +10,14 @@
     {
         caja.style.display = 'block';
     }
+    function mostrarOcultar()
+    {
+        if( caja.style.display == 'none' ){
+            mostrar();
+        }
+        else {
+            ocultar();
+        }
+    }
 
 
