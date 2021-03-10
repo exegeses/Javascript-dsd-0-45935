@@ -2,12 +2,19 @@
     var txt = document.getElementById('txt');
     var parrafo = document.getElementById('parrafo');
     var lista = document.getElementById('lista');
+    var lista2 = document.getElementById('lista2');
 
+/* colecciones de datos */
     var marcas = [
                     'LG', 'Motorola', 'Xiaomi',
                     'Huawei', 'Samsung', 'Alcatel'
                  ];
     txt.innerText = marcas[2];
+    var italianos = [
+                        'Maseratti', 'Pagani', 'Ferrari',
+                        'Alfa Romeo', 'Lancia', 'Lamborghini',
+                        'Abarth', 'Fornasari'
+                    ];
 
     // bucle while
     var n = 1;
@@ -26,4 +33,10 @@
         n++;
     }
 
+    // autos italianos
+    var cantidad = italianos.length;
+    lista2.innerHTML = '';
+    for ( n=0; n < cantidad; n++ ){
+        lista2.innerHTML = lista2.innerHTML +'<li>'+ italianos[n]+'</li>';
+    }
 
