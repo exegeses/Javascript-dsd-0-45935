@@ -1,0 +1,14 @@
+
+    #muestras{
+        border: 1px solid #ccc;
+        padding: 16px 0px 32px 20px;
+    }
+    #muestras i{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #ccc;
+        margin-right: 12px;
+        position: relative;
+        top: 11px;
+    }
